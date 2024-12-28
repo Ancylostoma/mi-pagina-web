@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Servicios Profesionales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style><div style="margin-top: 20px;">
+    <p>Contáctame directamente:</p>
+    <a href="https://wa.me/5359200853" target="_blank" style="color: white; background-color: #25D366; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+        Enviar Mensaje por WhatsApp
+    </a>
+</div>
+
+</head>
+<body>
+    <header>
+        <h1>TaskFlow</h1>
+        <p>Your needs are our goal.</p>
+    </header>
+    <main>
+        <h2>Formulario de Contacto</h2><section>
+            <h2>Servicios que Ofrezco</h2>
+            <ul>
+                <li>Redacción y edición de contenido profesional.</li>
+                <li>Gestión de redes sociales y marketing digital.</li>
+                <li>Traducción de documentos al inglés/español.</li>
+                <li>Asesorías personalizadas para proyectos.</li>
+            </ul>
+        </section>
+        
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdqce1uUJ5sNfUF17d5dvD-NL-18l-QBQT20151kx2KVfquNw/viewform?usp=pp_url" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo" required>
+            
+            <label for="description">Descripción del Proyecto:</label>
+            <textarea id="description" name="description" rows="5" placeholder="Describe qué necesitas..." required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 TaskFlow. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
